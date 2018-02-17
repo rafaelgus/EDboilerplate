@@ -7,6 +7,8 @@
 @import "config/variables";
 @import "config/mixins";
 
+
+
 // Base and elements (generic)
 @import "base/base";
 
@@ -17,8 +19,8 @@
 // MODULOS (SMACSS) O COMPONENTES (ITCSS)
   // Son los elementos de UI de tu interfaz, como botones, tablas, menus, etc.
   // Crea los archivos adicionales que necesites (uno por componente)
-@import "components/buttons";
-@import "components/menus";
+@import "components/_buttons";
+@import "components/_menus";
 
 // Theme (colors and fonts)
 @import "theme/typography";
